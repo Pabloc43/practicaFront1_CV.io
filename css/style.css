@@ -11,13 +11,47 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
-header{
+
+.div--imagen{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #E6E6E6;
 }
 
-img{
+.div--imagen img{
     width: 20vw;
+    border-radius: 50%;
+    padding: 15px 0;
+    min-width: 120px;
+    max-width: 250px;
+}
 
+.div--fondoTexto{
+    background-color: #C4C4C4;
+    color: #005677;
+    letter-spacing: 15px;
+}
+
+.div--fondoTexto h1{
+    text-align: center;
+    padding: 9px 0;
+}
+
+.div--fondoTexto h2{
+    padding: 7px 20px;
+}
+
+section:first-child{
+    margin-top: 13vh;
+}
+
+.div--contenido{
+    margin: 20px 50px;
+    margin-bottom: 30px;
+}
+
+span{
+    font-weight: bolder;
+    font-style: italic;
 }
